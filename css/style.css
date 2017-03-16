@@ -1,0 +1,248 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+::-moz-selection {
+    color: #f00;
+    text-shadow: none
+}
+
+::selection {
+    color: #f00;
+    text-shadow: none
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+.centered {
+    text-align: center
+}
+
+.mt {
+    margin-top: 50px
+}
+
+.mb {
+    margin-bottom: 50px
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    text-shadow: red 0 0 2px
+}
+
+a {
+    color: #000
+}
+
+.navbar a, #footer a {
+    color: #fff
+}
+
+a:hover, a:active {
+    color: #f00
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+    text-decoration: none
+}
+
+img.img-logo {
+    float: none;
+    max-height: 100px;
+    max-width: 100px;
+    margin: 1px 10px 1px 1px
+}
+
+img.google-play-badge {
+    float: none;
+    max-height: 100px;
+    max-width: 200px;
+    margin: 1px 1px 1px 1px
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+table.table-size {
+    width: 70%
+}
+
+th.ths {
+    width: 20%
+}
+
+td.tds {
+    width: 80%
+}
+
+th.ths, td.tds, .pad {
+    padding: 10px
+}
+
+img.file {
+    width: 150px;
+    height: 150px
+}
+
+.navbar-brand {
+    font-weight: 700
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-shadow: #f00 0 0 2px
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, .25);
+    border-color: transparent
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    text-shadow: #f00 0 0 2px;
+    background-color: transparent;
+    border-bottom: 2px solid #f00
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-shadow: #f00 0 0 2px
+}
+
+#footer {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #2f2f2f;
+    text-shadow: #f00 0 0 2px
+}
+
+#footer p {
+    color: #f2f2f2;
+    margin-left: 10px
+}
+
+.gallery {
+    margin-top: 30px
+}
+
+.gallery img:hover {
+    opacity: .7
+}
+
+#aboutwrap h1, #projectwrap h1, #errorwrap h1, #headerwrap h1, #workwrap h1 {
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: #f00 0 0 2px
+}
+
+#aboutwrap h4, #projectwrap h4, #errorwrap h4, #headerwrap h4, #workwrap h4 {
+    font-weight: 400;
+    color: #fff;
+    text-shadow: #f00 0 0 2px
+}
+
+#social {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2
+}
+
+i, .big-glyphicon {
+    font-size: 40px
+}
+
+i:hover {
+    color: #f00
+}
+
+.fa-vk {
+    color: #6896c7
+}
+
+.fa-facebook {
+    color: #486093
+}
+
+.fa-twitter {
+    color: #28c3fe
+}
+
+.fa-linkedin {
+    color: #0083be
+}
+
+.fa-github {
+    color: #000
+}
+
+.fa-skype {
+    color: #00aff0
+}
+
+.green {
+    color: #2a9b2a
+}
+
+.red {
+    color: #f00
+}
+
+.yellow {
+    color: #f90
+}
+
+#headerwrap {
+    background: url(../img/slide.jpg) no-repeat center top;
+    margin-top: -70px;
+    padding-top: 220px;
+    text-align: center;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+[id^=section] {
+    margin-bottom: 100%
+}
