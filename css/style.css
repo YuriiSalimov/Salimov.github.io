@@ -155,7 +155,7 @@ img.file {
     margin-top: 30px
 }
 
-.gallery img:hover {
+img:hover {
     opacity: .7
 }
 
