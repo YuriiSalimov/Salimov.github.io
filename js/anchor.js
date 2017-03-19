@@ -25,3 +25,11 @@
         return anchor[b] ? anchor[b].apply(this, Array.prototype.slice.call(arguments, 1)) : "object" != typeof b && b ? a.error("Method " + b + " does not exist on jQuery.anchor") : anchor.init.apply(this, arguments)
     }
 }(jQuery);
+
+$("document").ready(
+    function () {
+        $("a[href*=#]").anchor({
+            transitionDuration: 1200
+        })
+    }
+);
