@@ -1,0 +1,24 @@
+User-agent: Yandex
+Disallow: /old
+Disallow: /pdf
+Disallow: /images/bg
+Disallow: /images/icons
+Host: https://yuriisalimov.github.io
+
+User-agent: Googlebot
+Disallow: /old
+Disallow: /pdf
+Disallow: /images/bg
+Disallow: /images/icons
+Host: https://yuriisalimov.github.io
+
+User-agent: *
+Crawl-delay: 30
+Disallow: /old
+Disallow: /pdf
+Disallow: /css
+Disallow: /fonts
+Disallow: /images
+Disallow: /js
+
+Sitemap: https://yuriisalimov.github.io/sitemap.xml
