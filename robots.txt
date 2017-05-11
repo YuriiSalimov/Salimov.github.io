@@ -3,6 +3,8 @@ Disallow: /old
 Disallow: /pdf
 Disallow: /images/bg
 Disallow: /images/icons
+Disallow: /images/icons
+Disallow: /video
 Host: https://yuriisalimov.github.io
 
 User-agent: Googlebot
@@ -10,6 +12,7 @@ Disallow: /old
 Disallow: /pdf
 Disallow: /images/bg
 Disallow: /images/icons
+Disallow: /video
 Host: https://yuriisalimov.github.io
 
 User-agent: *
@@ -20,5 +23,6 @@ Disallow: /css
 Disallow: /fonts
 Disallow: /images
 Disallow: /js
+Disallow: /video
 
 Sitemap: https://yuriisalimov.github.io/sitemap.xml
