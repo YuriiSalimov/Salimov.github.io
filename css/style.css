@@ -135,7 +135,7 @@ body, html {
 
 .menu {
     font-size: 0;
-    padding-right: 120px
+    padding-right: 70px
 }
 
 .menu li {
@@ -194,16 +194,13 @@ a:hover {
     color: #e5544d
 }
 
-.header-email {
-    font: 14px "PT Sans"
-}
-
 .header-contacts {
     margin-top: 22px;
     text-align: right
 }
 
 .header-email {
+    font: 14px "PT Sans";
     color: #e6e7e8;
     margin-top: 4px
 }
