@@ -9,7 +9,7 @@
 }
 
 #LG_loading {
-    background: url(../images/icons/ico-loading.gif) no-repeat center;
+    background: url(../img/ico-loading.gif) no-repeat center;
     display: none;
     position: absolute;
     width: 40px;
@@ -36,12 +36,12 @@
 
 #LG_prevLink {
     left: 0;
-    background: url(../images/icons/prev.gif) no-repeat left 40px
+    background: url(../img/prev.gif) no-repeat left 40px
 }
 
 #LG_nextLink {
     right: 0;
-    background: url(../images/icons/next.gif) no-repeat right 40px
+    background: url(../img/next.gif) no-repeat right 40px
 }
 
 #LG_imgIndex {
@@ -92,41 +92,41 @@
 }
 
 #LG_zoomIn {
-    background: url(../images/icons/sprite.gif) no-repeat 0 0
+    background: url(../img/sprite.gif) no-repeat 0 0
 }
 
 #LG_zoomIn:hover {
-    background: url(../images/icons/sprite.gif) no-repeat 0 -40px
+    background: url(../img/sprite.gif) no-repeat 0 -40px
 }
 
 #LG_zoomNormal {
-    background: url(../images/icons/sprite.gif) no-repeat 0 -80px
+    background: url(../img/sprite.gif) no-repeat 0 -80px
 }
 
 #LG_zoomNormal:hover {
-    background: url(../images/icons/sprite.gif) no-repeat 0 -120px
+    background: url(../img/sprite.gif) no-repeat 0 -120px
 }
 
 #LG_zoomOut {
-    background: url(../images/icons/sprite.gif) no-repeat 0 -160px
+    background: url(../img/sprite.gif) no-repeat 0 -160px
 }
 
 #LG_zoomOut:hover {
-    background: url(../images/icons/sprite.gif) no-repeat 0 -200px
+    background: url(../img/sprite.gif) no-repeat 0 -200px
 }
 
 #LG_fitScreen {
-    background: url(../images/icons/sprite.gif) no-repeat 0 -320px
+    background: url(../img/sprite.gif) no-repeat 0 -320px
 }
 
 #LG_closeBtn {
     float: right;
-    background: url(../images/icons/sprite.gif) no-repeat 0 -240px;
+    background: url(../img/sprite.gif) no-repeat 0 -240px;
     width: 22px;
     height: 22px;
     cursor: pointer
 }
 
 #LG_closeBtn:hover {
-    background: url(../images/icons/sprite.gif) no-repeat 0 -280px
+    background: url(../img/sprite.gif) no-repeat 0 -280px
 }
