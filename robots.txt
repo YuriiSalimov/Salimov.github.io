@@ -3,7 +3,6 @@ Disallow: /old
 Disallow: /pdf
 Disallow: /images/bg
 Disallow: /images/icons
-Disallow: /images/icons
 Disallow: /video
 Host: https://yuriisalimov.github.io
 
