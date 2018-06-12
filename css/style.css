@@ -641,7 +641,10 @@ a:hover {
     color: #fff
 }
 
-.projects-item:nth-child(1), .projects-item:nth-child(2), .process-item:nth-child(1), .process-item:nth-child(2) {
+.projects-item:nth-child(1), .projects-item:nth-child(2),
+.process-item:nth-child(1), .process-item:nth-child(2),
+.projects-item:nth-child(3), .projects-item:nth-child(4),
+.projects-item:nth-child(3), .projects-item:nth-child(4){
     margin-bottom: 160px
 }
 
@@ -935,7 +938,7 @@ a:hover {
 }
 
 .experience {
-    height: 700px;
+    height: 1050px;
     background: url(../images/bg/career-bg-2.jpg) center top no-repeat
 }
 
@@ -1290,6 +1293,11 @@ a:hover {
     position: absolute
 }
 
+.shadow {
+    background: rgba(0, 0, 0, .75);
+    height: 100%
+}
+
 .video-wrap {
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -1308,10 +1316,7 @@ video {
     z-index: 0
 }
 
-.shadow {
-    background: rgba(0, 0, 0, .75);
-    height: 100%
-}
+
 
 .fe-list .shedule-item, .qa-list .shedule-item {
     width: 50%;
